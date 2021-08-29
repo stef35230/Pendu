@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a :hover {
+  color: blue;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+@media screen and (max-width: 740px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.choixNombreLettre #nbLettre {
+  background-color: transparent;
+  border: none;
+}
+
+.animation {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+}
+
+.animation .image {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+}
+
+.animation .visible {
+  opacity: 100;
+}
+
+#motATrouver {
+  width: 96vw;
+  margin: 10px 2vw;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 5px solid black;
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 740px) {
+  #motATrouver {
+    height: 3em;
+    width: 90vw;
+    margin: 10px 5vw;
+    border: 2px solid black;
+    font-size: 1em;
+  }
+}
+
+#motATrouver .lettreDuMotATrouver {
+  width: 1em;
+  height: 1.5em;
+  margin: 10px 5px 15px 0px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 740px) {
+  #motATrouver .lettreDuMotATrouver {
+    font-size: 1.45em;
+    line-height: 1.45em;
+    margin: 1px;
+  }
+}
+
+.conteurChoixLettre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteurChoixLettre .lettre {
+  width: 80px;
+  height: 80px;
+  margin: 4px;
+  border: 5px solid black;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 10px black;
+          box-shadow: 5px 5px 10px black;
+  background-color: cadetblue;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 740px) {
+  .conteurChoixLettre .lettre {
+    width: 40px;
+    height: 40px;
+    font-size: 1em;
+    margin: 1px;
+    border: 2px solid black;
+  }
+}
+
+.conteurChoixLettre .jouer {
+  background-color: brown;
+}
+
+#message {
+  position: absolute;
+  font-size: 4em;
+  line-height: 100%;
+  width: 100vw;
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px black;
+  display: inline;
+}
+
+#message .btn {
+  font-size: 0.5em;
+  padding: 15px;
+  -webkit-box-shadow: 10px 10px 15px black;
+          box-shadow: 10px 10px 15px black;
+  border-radius: 35px;
+  opacity: 0;
+}
+
+#message .btn:hover {
+  color: blue;
+  -webkit-box-shadow: 10px 10px 15px blue, -1px -1px 5px blue;
+          box-shadow: 10px 10px 15px blue, -1px -1px 5px blue;
+}
+
+@media screen and (max-width: 740px) {
+  #message .btn {
+    font-size: 0.25em;
+  }
+}
+
+#message .visible {
+  opacity: 100;
+}
+/*# sourceMappingURL=style.css.map */

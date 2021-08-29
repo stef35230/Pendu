@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jeu du pendu</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Jeu du pendu</h1>
+    <div class="choixNombreLettre">Retouver un mot de
+      <select id="nbLettre">
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">??</option>
+      </select>
+      lettres
+    </div>
+  </header>
+
+  <div class="animation">
+
+  </div>
+
+  <div id="motATrouver">
+  </div>
+
+  <div class="conteurChoixLettre">
+    <button class="lettre">A</button>
+    <button class="lettre">B</button>
+    <button class="lettre">C</button>
+    <button class="lettre">D</button>
+    <button class="lettre">E</button>
+    <button class="lettre">F</button>
+    <button class="lettre">G</button>
+    <button class="lettre">H</button>
+    <button class="lettre">I</button>
+    <button class="lettre">J</button>
+    <button class="lettre">K</button>
+    <button class="lettre">L</button>
+    <button class="lettre">M</button>
+    <button class="lettre">N</button>
+    <button class="lettre">O</button>
+    <button class="lettre">P</button>
+    <button class="lettre">Q</button>
+    <button class="lettre">R</button>
+    <button class="lettre">S</button>
+    <button class="lettre">T</button>
+    <button class="lettre">U</button>
+    <button class="lettre">V</button>
+    <button class="lettre">W</button>
+    <button class="lettre">Y</button>
+    <button class="lettre">Z</button>
+  </div>
+
+<div id="message">
+  <p id="leMessage"></p>
+  <button class="btn rejouer">Un autre mot</button>
+  <button class="btn recherche "> <img src="./images/qwant_logo_icon_170813.svg" width="20px" alt=""> <a
+    id="laRecherche" href="#" target="_blank" rel="noopener noreferrer"></a></button>
+</div>
+
+</body>
+
+</html>

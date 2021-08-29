@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+    justify-content: center;
+}
+
+.leJeu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animation{
+    background-color: antiquewhite;
+    order: 3;
+}
+
+#motATrouver{
+    background-color: aqua;
+    height: 20px;
+    width: 99%;
+    border: 2px solid black;
+    order: 1;
+    margin-bottom: 5px;
+}
+
+.conteurChoixLettre{
+    background-color: cadetblue;
+    order:2;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.lettre{
+    border: 1px solid black;
+    font-size: 1em;
+    padding: 5px;
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+}
+
