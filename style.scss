@@ -37,6 +37,9 @@ h1 {
     position: relative;
     height: 50vh;
     width: 100vw;
+    @media screen and (max-width: 740px) {
+        height: 40vh;
+    }
     .image {
         position: absolute;
         bottom: 0;
@@ -112,6 +115,9 @@ h1 {
     font-weight: bolder;
     text-shadow: 10px 10px 10px black;
     display: inline;
+    @media screen and (max-width: 740px) {
+        font-size: 1em;
+    }
     .btn {
         font-size: 0.5em;
         padding: 15px;
@@ -123,7 +129,7 @@ h1 {
             box-shadow: 10px 10px 15px blue, -1px -1px 5px blue;
         }
         @media screen and (max-width: 740px){
-            font-size: 0.25em;
+            font-size: 1em;
         }
     }
     .visible {

@@ -51,6 +51,12 @@ h1 {
   width: 100vw;
 }
 
+@media screen and (max-width: 740px) {
+  .animation {
+    height: 40vh;
+  }
+}
+
 .animation .image {
   position: absolute;
   bottom: 0;
@@ -152,6 +158,12 @@ h1 {
   display: inline;
 }
 
+@media screen and (max-width: 740px) {
+  #message {
+    font-size: 1em;
+  }
+}
+
 #message .btn {
   font-size: 0.5em;
   padding: 15px;
@@ -169,7 +181,7 @@ h1 {
 
 @media screen and (max-width: 740px) {
   #message .btn {
-    font-size: 0.25em;
+    font-size: 1em;
   }
 }
 
